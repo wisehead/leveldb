@@ -24,7 +24,7 @@ struct Test {
 };
 std::vector<Test>* tests;
 }  // namespace
-
+//--
 bool RegisterTest(const char* base, const char* name, void (*func)()) {
   if (tests == nullptr) {
     tests = new std::vector<Test>;
@@ -36,7 +36,7 @@ bool RegisterTest(const char* base, const char* name, void (*func)()) {
   tests->push_back(t);
   return true;
 }
-
+//--
 int RunAllTests() {
   const char* matcher = getenv("LEVELDB_TESTS");
 

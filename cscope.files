@@ -1,6 +1,12 @@
 ./benchmarks/db_bench.cc
 ./benchmarks/db_bench_sqlite3.cc
 ./benchmarks/db_bench_tree_db.cc
+./build/CMakeFiles/3.11.1/CompilerIdC/CMakeCCompilerId.c
+./build/CMakeFiles/3.11.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+./build/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+./build/CMakeFiles/feature_tests.c
+./build/CMakeFiles/feature_tests.cxx
+./build/include/port/port_config.h
 ./db/autocompact_test.cc
 ./db/builder.cc
 ./db/builder.h
